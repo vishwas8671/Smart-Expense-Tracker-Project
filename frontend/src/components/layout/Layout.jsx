@@ -11,6 +11,7 @@ const links = [
   { to: '/budgets', label: 'Budgets', icon: Target },
 ];
 
+
 export default function Layout() {
   const { user, logout } = useAuth();
   const { theme, toggle } = useTheme();
